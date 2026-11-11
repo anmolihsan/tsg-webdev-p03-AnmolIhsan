@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Say Hi — Chai &amp; Code</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .contact-form::before {
+      display: none !important;
+    }
+    .form-greeting {
+      padding-left: 0 !important;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">
+        <i class="fa-solid fa-mug-hot"></i> chai<span>&amp;</span>code
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Journal</a>
+        <a href="contact.html" class="active" aria-current="page">Say Hi</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-header">
+      <div class="container">
+        <p class="eyebrow">pull up a chair</p>
+        <h1>Write me a note.</h1>
+        <p>Questions, feedback, or just want to talk code and chai — I read every message.</p>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="contact-layout">
+
+        <form class="contact-form" action="#" method="post">
+          <p class="form-greeting">Dear stranger,</p>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your name</label>
+              <input type="text" id="name" name="name" placeholder="Your Name " required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" placeholder="abcde@gmail.com" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" placeholder="Tell me everything..." required></textarea>
+          </div>
+
+          <div class="form-footer">
+            <p class="form-signoff">— with chai, <br>Anmol Ihsan</p>
+            <button class="btn btn-primary" type="submit">
+              Send the note <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
+        </form>
+
+        <aside class="contact-card">
+          <h2>Or reach out directly</h2>
+
+          <ul class="contact-list">
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <strong>Email</strong>
+                anmolihsan@example.com
+              </div>
+            </li>
+            <li>
+              <i class="fa-brands fa-instagram"></i>
+              <div>
+                <strong>Instagram</strong>
+                @chaiandcode
+              </div>
+            </li>
+            <li>
+              <i class="fa-brands fa-github"></i>
+              <div>
+                <strong>GitHub</strong>
+                github.com/anmolihsan
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <strong>Based in</strong>
+                Pakistan 🇵🇰
+              </div>
+            </li>
+          </ul>
+
+          <p class="contact-note">
+            I usually reply within a couple of days usually while the kettle's still warm.
+          </p>
+        </aside>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 chai &amp; code brewed by hand for Project 03.</p>
+      <nav aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Journal</a>
+        <a href="contact.html">Say Hi</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
